@@ -36,12 +36,15 @@ canvas勉强还有20+，
 
 考虑到我们的放大镜元素并不多：设置100个元素，录制的堆内存使用情况如下：
 dom：3.3MB。
-[图片]
+![image](https://user-images.githubusercontent.com/37499101/203945775-0a81b748-3a92-4e0b-a7d4-f183c57bc127.png)
+
 
 canvas：1.8MB。
-[图片]
+![image](https://user-images.githubusercontent.com/37499101/203945820-1b60a395-e742-460b-88bd-c9ae4bc8acf8.png)
+
 
 webGl：1.9MB
-[图片]
+![image](https://user-images.githubusercontent.com/37499101/203945842-2b53ec4d-5a8c-4879-9228-b67b4ed15735.png)
+
 
 降为10个元素时，dom实现 堆内存降到3.5MB。canvas和webGl无明显差异。
